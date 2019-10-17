@@ -29,3 +29,7 @@ add HTML
 <div>{{widget type="RVSolutions\VideoGalleryWidget\Block\Widget\Convert" container_id="test-videogallery"}}</div>
 ```
 where *container_id* is ID of video-gallery element from above.
+
+## Used JS libraries
+https://github.com/gijsroge/OwlCarousel2-Thumbs
+https://www.jqueryscript.net/slider/Youtube-Video-Carousel-OWL-Tube.html
