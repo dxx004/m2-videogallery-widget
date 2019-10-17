@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="RVSolutions\VideoGalleryWidget\Block\Widget\Convert" id="rvs_videogallery">
+        <label translate="true">Video Gallery</label>
+        <description translate="true">Convert list of videos into video gallery</description>
+        <parameters>
+            <parameter name="container_id" sort_order="10" visible="true" xsi:type="text">
+                <label translate="true">Container ID</label>
+                <description translate="true">Specify HTML container ID (example: #video-gallery-id)</description>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

@@ -1,0 +1,30 @@
+{
+  "name": "dxx004/m2-videogallery-widget",
+  "description": "Magento 2 module - VideoGallery widget",
+  "require": {
+    "php": "~7.0.13|~7.1.3|~7.2.0",
+    "magento/framework": "^100|^101|^102"
+  },
+  "authors": [
+    {
+      "name": "mageguru.net",
+      "email": "hello@mageguru.net",
+      "homepage": "https://www.mageguru.net",
+      "role": "Technical Support"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "psr-4": {
+      "RVSolutions\\VideoGalleryWidget\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}

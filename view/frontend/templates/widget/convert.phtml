@@ -1,0 +1,16 @@
+<?php
+/** @var \RVSolutions\VideoGalleryWidget\Block\Widget\Convert $block */
+
+$elementId = $block->getData('container_id');
+
+if (!$elementId) {
+    return;
+}
+?>
+<script type="text/x-magento-init">
+        {
+            "#<?= $elementId?>": {
+                "RVSolutions_VideoGalleryWidget/js/video-gallery": {}
+            }
+        }
+</script>
